@@ -36,7 +36,7 @@ the program actually does here's a section-by-section description of what each t
 1. Stage 1, in `boot/s1.s`. The most proper one. Loads the second stage and lets itself get torn by
    the wolves. Also enables unreal mode so I can do some hacky pointer bullshit.
 2. Stage 2, in `boot/s2/`: Written in a nightmarish conglomerate of assembly and larper-mode 16-bit C,
-   this part grabs a memory map of choice (who's choice? the BIOS's), pokes at the BIOS for more information
+   this part grabs a memory map of choice (whose choice? the BIOS's), pokes at the BIOS for more information
    because my inferiority complex wasn't big enough, and shoves it all haphazardly into a linked list for
    some poor soul to try to retrieve it and discover my lack of a will to live.
    Some funny bits in there too. Check it out if you survived the nightmare of seeing code that could
@@ -115,7 +115,7 @@ make
 make run
 
 # If it works you'll see the text
-# "est from neko kernel_main(). if this is shown, we are in neko 32-bit kernel space"
+# "test from neko kernel_main(). if this is shown, we are in neko 32-bit kernel space"
 # on a black screen with more text on it. Ignore what the last README said. One of the
 # commit messages was "bootloader done" so we're not above baldfaced lies.
 # If it doesn't work, don't worry. There is no God to save you this time. Just qemu.log.
@@ -144,7 +144,7 @@ Thank God this works all the time except for when it doesn't.
 
 Some host-side C programs so I don't have to do it by hand:
 
-- IDTBuilder.c: for when you can't be fucked to write 255 IDT handlers by hand
+- IDTBuilder.c: for when you can't be fucked to write 256 IDT handlers by hand
 - MemMapReader.c: deprecated memory map reader when SBL was simpler
 - SBLReader.c: the pristine Arc-C hardware map reader which works all the time except when it didn't
   and made me wanna shit myself violently at Five Points.
@@ -176,7 +176,7 @@ what is there to say about it? It's a bad bootloader
 
 ## References
 
-- [OSDev Wiki](wiki.osdev.org) from which half this code was pilfered from.
+- [OSDev Wiki](https://wiki.osdev.org) from which half this code was pilfered from.
 - [The IA-32 Intel Architecture Software Developer's Manual](https://www.cs.cmu.edu/~410/doc/intel-sys.pdf)
 - [15-410 Project 4](https://www.cs.cmu.edu/~410-s07/p4/p4-boot.pdf) which this has massively diverged from
 - Wikipedia
