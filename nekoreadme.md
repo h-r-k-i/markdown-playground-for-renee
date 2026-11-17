@@ -1,21 +1,22 @@
 # An Operating System That Definitely Is Not Named Neko Trust Me I Would Never Do That
 
-updated readme updated readme holy shit she's doing it she's gonna rant for 45 pages about bullshit that the average
-american does not care about :P but that's why you check my repos isn't it? certainly isn't for professionally
-written code
+updated readme updated readme holy shit she's doing it she's gonna rant for 45 pages about bullshit that the
+average american does not care about :P but that's why you check my repos isn't it? certainly isn't for
+professionally written code
 
 ![](https://media1.tenor.com/m/SmipoZPWb1AAAAAd/and-then-he-clicked-post.gif)
 
-Professionally speaking, Neko is a bootloader. I mean, in all actuality, Neko is a stub kernel that prints something
-like `test from neko kernel_main(). if this is shown, we are in neko 32-bit kernel space`
+Professionally speaking, Neko is a bootloader. I mean, in all actuality, Neko is a stub kernel that prints
+something like `test from neko kernel_main(). if this is shown, we are in neko 32-bit kernel space`
 and then hangs like how I want to- we're getting ahead of ourselves this is supposed to be professional.
 The impressive part is the entire bootloader attached to the repository
 that does bootloader stuff like producing a Multiboot-like hardware map and loading a kernel.
 
-Unprofessionally speaking, this directory is SHIT and ASS and should NEVER be considered and yeah I'm not beating the unemployment allegations but I was already employed by Haruki Media Group
-where I got my cool email and I'm never getting a real job am I?
+Unprofessionally speaking, this directory is SHIT and ASS and should NEVER be considered and yeah I'm not
+beating the unemployment allegations but I was already employed by Haruki Media Group where I got my cool
+email and I'm never getting a real job am I?
 
-The bootloader is called SBL for Stage Boot Loader or that's the name I give it because I genuinely forgot
+The bootloader is called SBL for Staged Boot Loader or that's the name I give it because I genuinely forgot
 the original name. On a good day it's SBL. On a normal one like the one I had when I "finished" adding ELF
 support it's Shitty Bitchass Liar.
 
