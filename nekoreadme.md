@@ -55,7 +55,8 @@ Which one? Well, that's where the scare quotes come in.
 
 ## Getting Started
 
-It's README dependency all the way down. That never changed. The difference now is some of them are
+> [!NOTE]
+> It's README dependency all the way down. That never changed. The difference now is some of them are
 sometimes written by Claude when I can't give a shit anymore.
 
 ### Prerequisites
@@ -75,7 +76,8 @@ sometimes written by Claude when I can't give a shit anymore.
   And a pack of cigarettes.
 - Speaking of compilers, you specifically need a C compiler that can compile for 32-bit and 64-bit x86. I use GCC here.
   You also need a C++ compiler. I use G++ here.
-  You will also need NASM and ld for linking. This isn't a hard requirement; just do `sudo apt install nasm`. NASM doesn't even need to be cross-compiled.
+  You will also need NASM and ld for linking. This isn't a hard requirement; just do `sudo apt install nasm`.
+  NASM doesn't even need to be cross-compiled.
 - You will need disk image stuff like `sfdisk` and `mkfs.fat` and `mmd` and `mcopy` because
   I genuinely woke up one day and decided to ruin my life by implementing FAT support.
   This is genuinely how that happened, I'm not even joking.
@@ -157,7 +159,7 @@ uhhhhhh
 
 lol
 
-check youtube
+check youtube maybe
 
 ## Roadmap
 
@@ -194,4 +196,4 @@ This project is licensed under the [MIT License](LICENSE) but frankly why would 
 
 I HATE x86 I HATE CR0 I HATE UNREAL MODE I HATE THE 286 I HATE QEMU nah qemu's chill everyone else can fuck themselves.
 
-this is bad and ahh and shid and crap and dookie
+this is bad and ahh and shid and crap and dookie granted less so now but it's still bad and ahh and shid and crap and dookie.
